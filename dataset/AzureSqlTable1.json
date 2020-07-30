@@ -1,0 +1,67 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "pokemon",
+				"type": "varchar"
+			},
+			{
+				"name": "meta",
+				"type": "varchar"
+			},
+			{
+				"name": "type1",
+				"type": "varchar"
+			},
+			{
+				"name": "type2",
+				"type": "varchar"
+			},
+			{
+				"name": "hp",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "atk",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "def",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "spc",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "spe",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "bst",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "tier",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "SalesLT",
+			"table": "pokemon"
+		}
+	}
+}
