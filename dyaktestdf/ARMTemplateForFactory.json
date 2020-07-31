@@ -51,7 +51,6 @@
 							},
 							"sink": {
 								"type": "AzureSqlSink",
-								"preCopyScript": "delete from SalesLT.pokemon",
 								"disableMetricsCollection": false
 							},
 							"enableStaging": false,
